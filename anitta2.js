@@ -7,7 +7,7 @@ function btn() {
           Os zumbis já cercaram o aeroporto e tomaram posse do jato de Anitta.`)
         }else if (resposta == 2 ){
             alert ("Parabens, você passou para a proxima fase!")
-            location.replace("Anitta3.html")
+            location.replace("anitta3.html")
         }else{
             alert ("Opção invalida")
         }
