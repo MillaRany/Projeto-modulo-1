@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url(./rio2.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h2{
+    text-align: center;
+    padding: 100px;
+    font-size: 30px;
+    color:rgb(131, 35, 35)
+}
+.icones{
+    width: 940px;
+    margin: 0 auto;
+    padding: auto 50px;
+}
+
+.icones div{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+
+}
+.icones p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(102, 28, 28);
+    text-shadow: 0.1em 0.1em 0.1em white;
+}
+.icones img:hover{
+    transform: scale(1.1)
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+footer img {
+    width: 15px;
+}
+
+@media (max-width: 600px ){
+    .icones{
+        display: flex;
+        flex-direction: column;
+    }  
+}
