@@ -7,7 +7,7 @@ function btn() {
             O zumbis atacaram a Anitta e seus fãns, transformando todos em zumbis.`)
         }else if (resposta == 1 ){
             alert ("Parabens, você passou para a proxima fase!")
-            location.replace("Anitta2.html")
+            location.replace("anitta2.html")
         }else{
             alert ("Opção invalida")
         }
